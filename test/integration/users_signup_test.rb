@@ -16,15 +16,13 @@ end
       end
       assert_template 'users/new'
       assert_select 'div#error_explanation'
-      assert_select 'form[action="/signup"]'
+      assert_select 'form[action="/users"]'
       assert_select 'div.alert.alert-danger'
       assert_select 'li', "Name can't be blank"
       # assert_select 'li', "Email can't be blank"
       assert_select 'li', "Email is invalid"
       # assert_select 'li', "Password can't be blank"
       assert_select 'li', "Password is too short (minimum is 6 characters)"
-      
-      
   end
   
   test "valid signup information with account activation" do
