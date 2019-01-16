@@ -1,0 +1,2 @@
+$(".like-link-<%= @micropost.id %>").html("<%= j render partial: 'users/like', locals: {micropost_id: @micropost.id} %>");
+$(".likes-counter-<%= @micropost.id %>").html('<%= @micropost.likes.count %>');

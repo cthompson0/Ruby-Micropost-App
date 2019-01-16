@@ -14,5 +14,6 @@
 //= require bootstrap
 //= require rails-ujs
 //= require turbolinks
+//= require liked_micropost.js
 //= require_tree .
 

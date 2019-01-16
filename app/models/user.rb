@@ -8,6 +8,8 @@ class User < ApplicationRecord
                                      dependent: :destroy
     has_many :following, through: :active_relationships,  source: :followed
     has_many :followers, through: :passive_relationships, source: :follower
+    has_many :liked_posts
+    has_many :likes, through: :liked_posts, source: :micropost
     attr_accessor :remember_token, :activation_token, :reset_token
     before_save :downcase_email
     before_create :create_activation_digest
@@ -47,7 +49,7 @@ class User < ApplicationRecord
         update_attribute(:remember_digest, nil)
     end
     
-        # Activates an account
+    # Activates an account
     def activate
         update_columns(activated: true, activated_at: Time.zone.now)
     end
@@ -68,7 +70,7 @@ class User < ApplicationRecord
         UserMailer.password_reset(self).deliver_now
     end
     
-    # Returns true if a password resert has expired
+    # Returns true if a password reset has expired
     def password_reset_expired?
         reset_sent_at < 2.hours.ago
     end
@@ -94,8 +96,20 @@ class User < ApplicationRecord
     def following?(other_user)
         following.include?(other_user)
     end
-    
-    
+
+    # Liking and un-liking a post
+    def like(micropost)
+      self.likes << micropost
+    end
+
+    def unlike(micropost)
+      self.likes.destroy(micropost)
+    end
+
+    def likes?(micropost)
+      self.likes.include?(micropost)
+    end
+
     private
     
     # Converts email to all lower-case

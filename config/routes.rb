@@ -7,7 +7,6 @@ Rails.application.routes.draw do
 
   get 'users/new'
 
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   root 'static_pages#home'
 
   get '/help', to: 'static_pages#help'
@@ -28,6 +27,12 @@ Rails.application.routes.draw do
   resources :users do 
     member do
       get :following, :followers
+    end
+  end
+
+  resources :microposts do
+    member do
+      resources :liked_post, only: [:create, :destroy]
     end
   end
   
