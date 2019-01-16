@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="975355cd-e372-49a4-a7ad-b1080641adbb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/liked_micropost.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/liked_post/create.js.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/liked_post/destroy.js.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Ruby-Twitter-Clone.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Ruby-Twitter-Clone.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/micropost.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/micropost.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/microposts/_micropost.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/microposts/_micropost.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/relationships_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/relationships_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/microposts.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/microposts.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/users.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -35,7 +18,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Ruby_Twitter_Clone@test_create_should_require_logged_in_user__Ruby_Twitter_Clone.rcov" NAME="test_create_should_require_logged-in_user: Ruby-Twitter-Clone Coverage Results" MODIFIED="1547599684884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ruby-Twitter-Clone" />
-    <SUITE FILE_PATH="coverage/Ruby_Twitter_Clone@test_destroy_should_require_logged_in_user__Ruby_Twitter_Clone.rcov" NAME="test_destroy_should_require_logged-in_user: Ruby-Twitter-Clone Coverage Results" MODIFIED="1547599724633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ruby-Twitter-Clone" />
+    <SUITE FILE_PATH="coverage/Ruby_Twitter_Clone@test_destroy_should_require_logged_in_user__Ruby_Twitter_Clone.rcov" NAME="test_destroy_should_require_logged-in_user: Ruby-Twitter-Clone Coverage Results" MODIFIED="1547599842196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ruby-Twitter-Clone" />
+    <SUITE FILE_PATH="coverage/Ruby_Twitter_Clone@Run_test__liked_post_test___Ruby_Twitter_Clone.rcov" NAME="Run test 'liked_post_test': Ruby-Twitter-Clone Coverage Results" MODIFIED="1547599920474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ruby-Twitter-Clone" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="573463353">
@@ -54,13 +38,13 @@
           <entry key="Gemfile" value="3" />
           <entry key="coffee" value="4" />
           <entry key="css" value="1" />
-          <entry key="erb" value="64" />
+          <entry key="erb" value="65" />
           <entry key="ico" value="1" />
           <entry key="js" value="5" />
           <entry key="lock" value="1" />
-          <entry key="rb" value="95" />
+          <entry key="rb" value="102" />
           <entry key="scss" value="3" />
-          <entry key="yml" value="11" />
+          <entry key="yml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -70,10 +54,10 @@
           <entry key="Image" value="1" />
           <entry key="JavaScript" value="5" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="RHTML" value="64" />
-          <entry key="Ruby" value="98" />
+          <entry key="RHTML" value="65" />
+          <entry key="Ruby" value="105" />
           <entry key="SCSS" value="3" />
-          <entry key="YAML" value="11" />
+          <entry key="YAML" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -81,7 +65,7 @@
           <entry key="Gemfile" value="60" />
           <entry key="erb" value="4907" />
           <entry key="js" value="2484" />
-          <entry key="rb" value="2808" />
+          <entry key="rb" value="2841" />
           <entry key="scss" value="69" />
           <entry key="yml" value="61" />
         </counts>
@@ -90,7 +74,7 @@
         <counts>
           <entry key="JavaScript" value="2484" />
           <entry key="RHTML" value="4907" />
-          <entry key="Ruby" value="2868" />
+          <entry key="Ruby" value="2901" />
           <entry key="SCSS" value="69" />
           <entry key="YAML" value="61" />
         </counts>
@@ -100,10 +84,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/microposts/_micropost.html.erb">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="292">
+              <caret line="89" column="15" selection-start-line="89" selection-start-column="15" selection-end-line="89" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -111,8 +95,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/liked_post_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/micropost.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/controllers/relationships_controller_test.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/shared/_feed.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/microposts_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -130,16 +150,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/users/_unlike.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="22" selection-start-column="22" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/liked_post/create.js.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="36" />
+              <caret column="74" lean-forward="true" selection-start-column="74" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -147,42 +158,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/liked_post/destroy.js.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="36" selection-start-column="36" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/controllers/liked_post_controller_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+            <state relative-caret-position="15">
+              <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/microposts_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/controllers/relationships_controller_test.rb">
+        <entry file="file://$PROJECT_DIR$/test/models/liked_post_test.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/controllers/microposts_controller_test.rb">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -193,6 +181,14 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>@m1</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>@micropost</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -213,7 +209,6 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" />
         <option value="$PROJECT_DIR$/app/views/shared/_stats.html.erb" />
         <option value="$PROJECT_DIR$/app/models/liked_post.rb" />
-        <option value="$PROJECT_DIR$/test/models/liked_post_test.rb" />
         <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/liked_post.js" />
@@ -234,6 +229,7 @@
         <option value="$PROJECT_DIR$/test/controllers/relationships_controller_test.rb" />
         <option value="$PROJECT_DIR$/app/views/microposts/_micropost.html.erb" />
         <option value="$PROJECT_DIR$/test/controllers/liked_post_controller_test.rb" />
+        <option value="$PROJECT_DIR$/test/models/liked_post_test.rb" />
       </list>
     </option>
   </component>
@@ -255,11 +251,11 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="187" />
-    <option name="y" value="105" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="24" />
+    <option name="y" value="97" />
+    <option name="width" value="1882" />
+    <option name="height" value="992" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -295,6 +291,11 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Ruby-Twitter-Clone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ruby-Twitter-Clone" type="462c0819:PsiDirectoryNode" />
+              <item name="tmp" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -328,7 +329,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.test_destroy_should_require_logged-in_user: Ruby-Twitter-Clone">
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.Run test 'liked_post_test': Ruby-Twitter-Clone">
     <configuration name="Development: Ruby-Twitter-Clone" type="RailsRunConfigurationType" factoryName="Rails">
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="Ruby-Twitter-Clone" />
@@ -424,6 +425,36 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
       <method v="2" />
     </configuration>
+    <configuration name="Run test 'liked_post_test': Ruby-Twitter-Clone" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="Ruby-Twitter-Clone" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/models/liked_post_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_create_should_require_logged-in_user: Ruby-Twitter-Clone" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="Ruby-Twitter-Clone" />
@@ -491,9 +522,11 @@
       <item itemvalue="Rails.Development: Ruby-Twitter-Clone" />
       <item itemvalue="Test::Unit/Shoulda/Minitest.test_create_should_require_logged-in_user: Ruby-Twitter-Clone" />
       <item itemvalue="Test::Unit/Shoulda/Minitest.test_destroy_should_require_logged-in_user: Ruby-Twitter-Clone" />
+      <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'liked_post_test': Ruby-Twitter-Clone" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'liked_post_test': Ruby-Twitter-Clone" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_destroy_should_require_logged-in_user: Ruby-Twitter-Clone" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_create_should_require_logged-in_user: Ruby-Twitter-Clone" />
       </list>
@@ -518,7 +551,7 @@
       <workItem from="1536164094162" duration="23810000" />
       <workItem from="1536594565462" duration="29746000" />
       <workItem from="1539811091164" duration="2296000" />
-      <workItem from="1546925244572" duration="30773000" />
+      <workItem from="1546925244572" duration="32969000" />
     </task>
     <servers />
   </component>
@@ -535,20 +568,38 @@
     <history-entry file="test_create_should_require_logged-in_user__Ruby-Twitter-Clone - 2019.01.15 at 16h 45m 33s.xml">
       <configuration name="test_create_should_require_logged-in_user: Ruby-Twitter-Clone" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="test_create_should_require_logged-in_user__Ruby-Twitter-Clone - 2019.01.15 at 16h 48m 08s.xml">
+      <configuration name="test_create_should_require_logged-in_user: Ruby-Twitter-Clone" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="test_destroy_should_require_logged-in_user__Ruby-Twitter-Clone - 2019.01.15 at 16h 48m 19s.xml">
+      <configuration name="test_destroy_should_require_logged-in_user: Ruby-Twitter-Clone" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="test_destroy_should_require_logged-in_user__Ruby-Twitter-Clone - 2019.01.15 at 16h 48m 47s.xml">
+      <configuration name="test_destroy_should_require_logged-in_user: Ruby-Twitter-Clone" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="test_destroy_should_require_logged-in_user__Ruby-Twitter-Clone - 2019.01.15 at 16h 50m 45s.xml">
+      <configuration name="test_destroy_should_require_logged-in_user: Ruby-Twitter-Clone" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_test_'liked_post_test'__Ruby-Twitter-Clone - 2019.01.15 at 16h 51m 24s.xml">
+      <configuration name="Run test 'liked_post_test': Ruby-Twitter-Clone" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_test_'liked_post_test'__Ruby-Twitter-Clone - 2019.01.15 at 16h 52m 03s.xml">
+      <configuration name="Run test 'liked_post_test': Ruby-Twitter-Clone" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108958000" />
+    <option name="totallyTimeSpent" value="111154000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="24" y="97" width="1882" height="992" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23462088" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25054348" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3784494" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298292" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298292" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -556,7 +607,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.282523" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24543379" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32893288" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -594,40 +645,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-start-column="4" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/sessions/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/liked_post.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/password_resets_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-498" />
@@ -753,13 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="89" column="15" selection-start-line="89" selection-start-column="15" selection-end-line="89" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
@@ -826,13 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/controllers/relationships_controller_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/liked_post/create.js.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -840,29 +843,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/_like.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/liked_post/destroy.js.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" selection-start-column="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/_unlike.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="50" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/microposts/_micropost.html.erb">
       <provider selected="true" editor-type-id="text-editor">
@@ -874,24 +856,93 @@
     <entry file="file://$PROJECT_DIR$/test/controllers/microposts_controller_test.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/microposts_controller.rb">
+    <entry file="file://$PROJECT_DIR$/test/controllers/liked_post_controller_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/liked_posts.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/models/liked_post_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/_like.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/_unlike.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="74" lean-forward="true" selection-start-column="74" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/liked_post/destroy.js.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/liked_post_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/controllers/liked_post_controller_test.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180904173033_create_liked_posts.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        <state relative-caret-position="690">
+          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="89" column="15" selection-start-line="89" selection-start-column="15" selection-end-line="89" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/microposts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_feed.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/micropost.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/controllers/relationships_controller_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
